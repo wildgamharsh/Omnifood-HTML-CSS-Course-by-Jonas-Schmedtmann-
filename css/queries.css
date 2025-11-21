@@ -151,7 +151,7 @@
 @media (max-width: 44em) {
   .grid--3-cols,
   .grid--4-cols {
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(2, 1fr);
   }
   .diets {
     grid-column: span 2;
@@ -194,6 +194,7 @@
     font-size: 3.2rem;
   }
 }
+
 /* BELOW 544 PIXELS FOR PHONES */
 
 @media (max-width: 34em) {
@@ -236,5 +237,18 @@
   .cta-img-box {
     height: 40rem;
     grid-row: 1;
+  }
+  .section-meals .grid.grid--3-cols {
+    grid-template-columns: 1fr !important;
+    column-gap: 0 !important;
+  }
+  .meal {
+    grid-column: 1/-1;
+  }
+  .feature {
+    text-align: center;
+  }
+  .feature-icon {
+    margin-right: 1rem;
   }
 }

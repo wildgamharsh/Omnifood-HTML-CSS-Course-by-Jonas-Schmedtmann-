@@ -124,6 +124,9 @@ body {
 .grid--center-v {
   align-items: center;
 }
+.grid--center-h {
+  justify-items: center;
+}
 
 .heading-primary,
 .heading-secondary,
